@@ -95,6 +95,4 @@ commands:
         ansible-navigator --ee false
       workingDir: ${PROJECTS_ROOT}/ansible-devspaces-demo
       component: tooling-container
-events:
-  postStart:
-    - "oc-install"
+
